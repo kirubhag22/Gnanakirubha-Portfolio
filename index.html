@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+
+    <link rel="stylesheet" href="/singlePageWebsite/style.css">
+    <script src="/singlePageWebsite/main.js"></script>
+</head>
+<body>
+    <header class="HomeSection">
+         
+               <div class="profile_name">
+                   <h1>Gnana Kirubha .H</h1>
+                   <p>Email: kirubhag19@gmail.com
+                   <br>Phone: +91-7530048028</p>
+                </div>
+              <div class="topmenu">
+                 <a href="#about">About</a>
+                  <a href="#skills">Skills</a>
+                  <a href="#projects">Projects</a>
+                   <a href="#recommendations">Recommendations</a>
+               </div>
+             
+    </header>
+    <main>
+        <section class="about" id="about">
+                <img id="image" src="/singlePageWebsite/images/IMG_2464.jpg" alt="candidate's image">
+                <div>
+                    <h1>Hi, I'm Gnana Kirubha!</h1>
+                    <p>Zealous and self-motivated Mechanical Engineer having enormous
+                    exposure to production and assembly lines in the automotive
+                    industry. Flexible and energetic in meeting the job demands. To
+                    gain experience from exemplary people and also to promote
+                    teamwork.</p>              
+                
+                </div>
+                
+        </section>
+        <section class="skills" id="skills">
+            <h1>Skills</h1>
+            
+            <div class="skill-list">
+                <div id="sk">
+                    <img id="pic" src="/singlePageWebsite/images/download (1).jpeg" alt="html-icon">
+                    <p id="k1">HTML</p>
+                    <p id="k2">2 years experience</p>
+                </div>
+                <div id="sk">
+                    <img id="pic" src="/singlePageWebsite/images/js.png" alt="js-icon">
+                    <p id="k1">Javascript</p>
+                    <p id="k2">1.5 years experience</p>
+                </div>
+                <div id="sk">
+                    <img id="pic" src="/singlePageWebsite/images/node new.png" alt="node-icon">
+                    <p id="k1">Node.js</p>
+                    <p id="k2">1 year experience</p>
+                </div>
+                <div id="sk">
+                    <img id="pic" src="/singlePageWebsite/images/css.jpeg" alt="css-icon">
+                    <p id="k1">CSS</p>
+                    <p id="k2">2 years experience</p>
+                </div>
+                <div id="sk">
+                    <img id="pic" src="/singlePageWebsite/images/java.png" alt="java-icon">
+                    <p id="k1">Java</p>
+                    <p id="k2">.5 year experience</p>
+                </div>
+                <div id="sk">
+                    <img id="pic" src="/singlePageWebsite/images/download.png" alt="react-icon">
+                    <p id="k1">React</p>
+                    <p id="k2">1 year experience</p>
+                </div>
+            </div>
+             
+        </section>
+        <section class="projects" id="projects">
+            <h1>Projects</h1>
+            <div id="project-list">
+               <div id="project1">
+                    <h2>Design of a 6-axis arm robot</h2>
+                    <ul>
+                        <li>Designed a 6-axis arm robot using CATIA software for automation in automotive sectors.</li>
+                    </ul>
+
+               </div>
+               <hr>
+               <div id="project2">
+                     <h2>Cranial Implantation using 3D printing</h2>
+                     <ul>
+                        <li>Designed a cranial implant using a patient's CT scan and developed a 3d printed implant that protects our brain when there is a skull damage.  </li>
+                    </ul>
+               </div>
+               <hr>
+               <div id="project3">
+                     <h2>Developed a Zodiac sign website</h2>
+                     <ul>
+                        <li>Created a tamil blog website using MERN stack for posting daily news in horoscope and zodiac signs.</li>
+                     </ul>
+                
+               </div>
+            </div>           
+        </section>
+        <section class="recommendations" id="recommendations">
+             <h1>Recommendations</h1>
+                
+               <ul id="reco3">
+                 <li id="recoA">
+                    "Gnana is very good team player. She adapts to work culture quickly. She has good communication skills and is moreproductive."
+                 </li>
+                 <li id="recoA">
+                     "Gnana is a technical person as far I know. She gives importance to very fine details.Though she is from non-IT background, her interest in coding has taken her to great success." 
+                 </li>
+                 <li id="recoA">
+                     "I worked with Gnana in 4 government projects for the past 3 years. She has good leadership skills and is an expert in providing technical solutions." 
+                 </li>
+            </ul>  
+            <div id="popup" class="popup" style="display:none">
+                <p>Your recommendation has been successfully submitted!</p>
+                <button onclick="closePopup()">Close</button>
+            </div>
+        </section>          
+        <section id="form-submission">
+              <div id="recommend">
+                 <form id="form1">
+                    <input id="name" type="name" placeholder="Name(Optional)"><br> 
+                     <textarea name="message" id="message" placeholder="Message" rows="5"></textarea><br> 
+                    <button id="recommend_btn" onClick="addRecommendation()">Submit</button>
+                </form>
+            </div>
+       </section>
+
+     </main>
+     <footer>
+        <a href="#"><img id="top" src="/singlePageWebsite/images/back to top.png" alt="go-to-top"></a>
+     </footer>
+</body>
+</html>
